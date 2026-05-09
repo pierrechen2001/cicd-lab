@@ -63,7 +63,7 @@ Push 到 GitHub 觀察 CI
 
 ### 實際推送一個 feature branch
 
-把 `snippets/01_hello.yaml` 複製到 `.github/workflows/` 底下
+建立一個 feature branch 並把 `snippets/01_hello.yaml` 複製到 `.github/workflows/` 底下
 
 ```bash
 git checkout -b feature/ci-observe
@@ -86,7 +86,7 @@ git push origin feature/ci-observe
 把 `snippets/02_run-test.yaml` 複製到 `.github/workflows/` 底下
 
 ```bash
-cp snippets/snippets/02_run-test.yaml .github/workflows/
+cp snippets/02_run-test.yaml .github/workflows/
 git add .
 git commit -m "ci: add run-test.yaml"
 git push origin feature/ci-observe
